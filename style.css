@@ -1,0 +1,103 @@
+
+ * {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    margin:10% auto 0 auto;
+	padding:30px;
+	width: 50%;
+	height:auto;
+	overflow:hidden;
+	background:rgb(230, 116, 116);
+	border-radius:10px;
+}
+.main {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.list-head{
+	margin-bottom: 40px;
+}
+input {
+	margin:15px 0;
+	padding:15px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+    transition:0.2s ease all;
+}
+
+input:focus {
+	border-color:cornflowerblue;
+}
+ button{
+    align-items: center;
+    padding:15px 50px;
+	width:auto;
+	border:none;
+	color:white;
+	cursor:pointer;
+	display:inline-block;
+	
+    border-radius: 40px;
+}
+#add{
+	background:#1abc9c;
+}
+.delete_all{
+    
+	background:#eb4747;
+}
+ul li {
+	list-style: none;
+	align-items: center;
+    padding:15px 50px;
+	font-size: 18px;
+}
+.delbtn{
+	float: right;
+	background-color: #eb4747;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.editbtn{
+	float: right;
+	background-color: #47bdeb;
+}
+
+
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES) ==============*/
+
+@media screen and ( max-width: 1024px) {
+	.container {
+		margin: 0;
+		width: 100%;
+}
+input{
+	width:80%;
+}
+}
+
+/*============= MEDIA QUERIES (SMALL DEVICES) ==============*/
+@media screen and ( max-width: 600px) {
+    .container {
+		margin: 0;
+		width: 100%;
+}
+input{
+	width:80%;
+}
+.delbtn{
+	padding:10px 30px;
+}
+.editbtn{
+	padding:10px 30px;
+}
+
+}
